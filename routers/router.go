@@ -16,4 +16,9 @@ func init() {
 	beego.Router("/login.html",&controllers.LoginController{})
 	//用户登录接口
 	beego.Router("/user_login",&controllers.LoginController{})
+	//用户传证接口
+	beego.Router("/upload",&controllers.UploadController{})
+	//立即存在接口
+	beego.Router("/list_record",&controllers.UploadController{})
+
 }
