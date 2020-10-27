@@ -2,6 +2,7 @@ package uilt
 
 import (
 	"crypto/md5"
+	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
 	"io"
@@ -35,14 +36,13 @@ func MD5HashReader(reader io.Reader)(string,error) {
 
 
 }
-/*
-func SH256HashBlock(bolck blockchain.Block)([]byte){
+
+func SH256HashBlock(data []byte)([]byte){
 
 	//1.对block字段进行拼接
 	//2.对拼接后的数据进行sha256
 	sha256Hash:=sha256.New()
-	sha256Hash.Write([]byte(""))
+	sha256Hash.Write(data)
 	return  sha256Hash.Sum(nil)
 }
 
- */

@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2669fc62-06a1-418e-85e7-3b9a4423d5ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blockchain/block.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/upload.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/uploadRecord.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/WeChatImg-8lg-GUI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uilt/hash.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/list_record.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain/blockchain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain/pow.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/app-5e0455372927b43eec8b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/common-5e0455372927b43eec8b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uilt/convert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uilt/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/upload.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/upload.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/uploadRecord.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/uploadRecord.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/2020/10/18/434ca66efc54e51f0f8e2015a7c550f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/2020/10/18/f7a08ebdf1fb9b908615a14bdd32dfe3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uilt/hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/uilt/hash.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/list_record.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/list_record.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +38,14 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DetaCerProject" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -60,17 +67,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="E:/学习区块链/go语言课堂笔记/DataCertProject" />
+    <property name="last_opened_file_path" value="E:/学习区块链/go语言课堂笔记/3月17日/DataCertProject(5)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\27142\go\src\DetaCerProject\static\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\27142\go\src\DetaCerProject\static\css" />
       <recent name="C:\Users\27142\go\src\DetaCerProject\static\img" />
       <recent name="C:\Users\27142\go\src\DetaCerProject\static\css1" />
       <recent name="C:\Users\27142\go\src\DetaCerProject\static\js" />
-      <recent name="C:\Users\27142\go\src\DetaCerProject\static\css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build DetaCerProject">
     <configuration name="go build DetaCerProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DetaCerProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -80,43 +90,60 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build pow.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DetaCerProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/blockchain/pow.go" />
+      <package value="DetaCerProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build DetaCerProject" />
+        <item itemvalue="Go Build.go build pow.go" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="358" y="2" key="#go_build_pow.go" timestamp="1603283965616">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="358" y="2" key="#go_build_pow.go/0.0.1280.680@0.0.1280.680" timestamp="1603283965616" />
     <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1603029981827">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603029981827" />
-    <state x="451" y="47" key="FileChooserDialogImpl" timestamp="1603019241276">
+    <state x="451" y="47" key="FileChooserDialogImpl" timestamp="1603808544993">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="451" y="47" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603019241276" />
-    <state width="1237" height="127" key="GridCell.Tab.0.bottom" timestamp="1603032951761">
+    <state x="451" y="47" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603808544993" />
+    <state width="1237" height="68" key="GridCell.Tab.0.bottom" timestamp="1603803174178">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603032951761" />
-    <state width="1237" height="127" key="GridCell.Tab.0.center" timestamp="1603032951760">
+    <state width="1237" height="68" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603803174178" />
+    <state width="1237" height="68" key="GridCell.Tab.0.center" timestamp="1603803174174">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603032951760" />
-    <state width="1237" height="127" key="GridCell.Tab.0.left" timestamp="1603032951760">
+    <state width="1237" height="68" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603803174174" />
+    <state width="1237" height="68" key="GridCell.Tab.0.left" timestamp="1603803174170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603032951760" />
-    <state width="1237" height="127" key="GridCell.Tab.0.right" timestamp="1603032951760">
+    <state width="1237" height="68" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603803174170" />
+    <state width="1237" height="68" key="GridCell.Tab.0.right" timestamp="1603803174175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603032951760" />
-    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602425318242">
+    <state width="1237" height="68" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603803174175" />
+    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603799969410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602425318242" />
+    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603799969410" />
   </component>
 </project>

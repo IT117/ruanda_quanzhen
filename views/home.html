@@ -222,8 +222,7 @@
 
                                     <div class="attestations-profile-content upload-content">
                                         <section class="file-content"><!-- react-text: 764 --><!-- /react-text -->
-                                            <form id="fform" method="post" enctype="multipart/form-data"
-                                                  action="/upload">
+                                            <form id="fform" method="post" enctype="multipart/form-data"action="/upload">
 
                                             <div class="files-container">
 
@@ -232,7 +231,7 @@
                                                         </p>
                                                         <div class="input-tag" style="position: relative;">
                                                             <div class="el-autocomplete my-autocomplete">
-                                                                <div class="el-input"><input type="text" value=""
+                                                                <div class="el-input"><input type="text" name="upload_title"
                                                                                              placeholder="请输入标签名选择或新增"
                                                                                              class="el-input__inner"
                                                                                              autocomplete="off"></div>
@@ -285,6 +284,7 @@
 
                                                             </div>
                                                         </div>
+                                                    <input hidden="hidden" type="text" name="phone" value="{{.Phone}}"/>
                                                         <button class="blueButton" type="submit">立即存证</button>
 
                                                 </div>
