@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2669fc62-06a1-418e-85e7-3b9a4423d5ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blockchain/blockchain.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blockchain/pow.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/app-5e0455372927b43eec8b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/common-5e0455372927b43eec8b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uilt/convert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uilt/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/upload.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/upload.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/blockchain.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/uploadRecord.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/uploadRecord.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/2020/10/18/434ca66efc54e51f0f8e2015a7c550f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/2020/10/18/f7a08ebdf1fb9b908615a14bdd32dfe3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uilt/hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/uilt/hash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/list_record.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/list_record.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="E:/学习区块链/go语言课堂笔记/3月17日/DataCertProject(5)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -113,6 +100,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="385" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603958914099">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1603958914099" />
     <state x="358" y="2" key="#go_build_pow.go" timestamp="1603283965616">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -121,26 +112,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603029981827" />
-    <state x="451" y="47" key="FileChooserDialogImpl" timestamp="1603808544993">
+    <state x="451" y="47" key="FileChooserDialogImpl" timestamp="1603866687530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="451" y="47" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603808544993" />
-    <state width="1237" height="68" key="GridCell.Tab.0.bottom" timestamp="1603803174178">
+    <state x="451" y="47" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603866687530" />
+    <state width="1237" height="133" key="GridCell.Tab.0.bottom" timestamp="1603964378484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603803174178" />
-    <state width="1237" height="68" key="GridCell.Tab.0.center" timestamp="1603803174174">
+    <state width="1237" height="133" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603964378484" />
+    <state width="1237" height="133" key="GridCell.Tab.0.center" timestamp="1603964378483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603803174174" />
-    <state width="1237" height="68" key="GridCell.Tab.0.left" timestamp="1603803174170">
+    <state width="1237" height="133" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603964378483" />
+    <state width="1237" height="133" key="GridCell.Tab.0.left" timestamp="1603964378482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603803174170" />
-    <state width="1237" height="68" key="GridCell.Tab.0.right" timestamp="1603803174175">
+    <state width="1237" height="133" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603964378482" />
+    <state width="1237" height="133" key="GridCell.Tab.0.right" timestamp="1603964378483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="68" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603803174175" />
+    <state width="1237" height="133" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603964378483" />
     <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603799969410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
