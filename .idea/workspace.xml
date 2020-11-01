@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2669fc62-06a1-418e-85e7-3b9a4423d5ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/certDetailController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/app-de629dfeac93cb9584b8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/common-de629dfeac93cb9584b8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/1069b6f8677b951d23b1ed10fc5dd86b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/18b49ec54b451dcc0caabfe679131cfd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/323fcf2313166c88b601a5e54b953f92.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/55c88fc3903be384d877ce3657666482.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/62ee1d624c089777a21403ab308a78cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/646d76509a53ca607416cfb969b086e6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/7b823e3f9ecd46ae24e794932342a905.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/8c8255092a2740dda9d17093374a10bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/91965b58213ae78e9ab271a6678e257e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/9d081eb4a5aed2c1f7c3bc640a79e22e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/b738f22ca829041235d7ab0194688984.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/eb7ddc2c252cf8382092e0ec17f64455.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/2020/11/01/f1b592c2207773e807fa713ec4b2e800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/app-de629dfeac93cb9584b8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common-de629dfeac93cb9584b8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/cert_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/blockchain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chain.db" beforeDir="false" afterPath="$PROJECT_DIR$/chain.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
-    </list>
+    <list default="true" id="2669fc62-06a1-418e-85e7-3b9a4423d5ce" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
