@@ -1,6 +1,7 @@
 package blockchain
 
 import (
+	"errors"
 	"fmt"
 	"github.com/bolt"
 	"math/big"
@@ -14,6 +15,7 @@ var LAST_KEY = "lasthash"
 
 //储存区块数据的文件
 var CHAINDB = "chain.db"
+var CHAIN BlockChain
 
 /**
 区块链结构体实例定义： 用于代表一条区块链
@@ -164,7 +166,49 @@ func NewBlockChain() BlockChain {
 		return nil
 
 	})
+	//为全局变量
+	CHAIN =bl
 	return bl
+
+}
+/**
+该方法用于用户传入的认证id查询区块的信息，并返回
+ */
+func (bc BlockChain) QureyByCertId(cert_id []byte)(*Block,error) {
+	var block *Block
+	db :=bc.BoltDb
+	var err error
+	db.View(func(tx *bolt.Tx) error {
+	bucket :=tx.Bucket([]byte (BUCKET_NAME))
+	if bucket==nil{
+		err =errors.New("查询到区块数据遇到错误")
+		return err
+	}
+	//桶存在
+	eachHash := bucket.Get([]byte(LAST_KEY))
+	eachBig:=new(big.Int)
+	zeroBig :=big.NewInt(0)
+	for {
+		eachBlockBytes :=bucket.Get(eachHash)
+		eachBloock,_:=DeSerialize(eachBlockBytes)
+		//找到的情况
+		if string (eachBloock.Data) == string( cert_id){
+			block =eachBloock
+			break
+
+		}
+		//找不到的情况，到了创世区块还未找到，直接跳出循环。
+		eachBig.SetBytes(eachBloock.PrevHash)
+		if eachBig.Cmp(zeroBig)==0{//已经到了创世区块，还未找到
+			break
+		}
+		eachHash=eachBloock.PrevHash
+	}
+	return nil
+
+
+	})
+	return block,err
 
 }
 

@@ -20,5 +20,7 @@ func init() {
 	beego.Router("/upload",&controllers.UploadController{})
 	//立即存在接口
 	beego.Router("/list_record",&controllers.UploadController{})
+	//查看认证数据的证书接口
+	beego.Router("/cert_detail.html",&controllers.CertDetailController{})
 
 }
